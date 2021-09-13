@@ -1,0 +1,54 @@
+@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700");
+@import url("https://fonts.googleapis.com/css?family=Libre+Baskerville:400,700");
+
+
+*:hover {
+   -webkit-transition: all 1s ease;
+   transition: all 1s ease;
+}
+.profile-card {
+   font-family: "Open Sans", Arial, sans-serif;
+   box-shadow: 4px 4px 10px rgba(166, 68, 190, 0.37),
+   -4px -4px 10px rgba(112, 152, 236, 0.37);
+   width: 300px;
+   border-radius : 5%
+}
+.profile-card .card-content {
+   padding: 15px 25px;
+   color: #232323;
+   border-radius: 0 0 5px 5px;
+}
+.profile-card h2 {
+   font-weight: 600;
+   font-size: 25px;
+}
+.profile-card h2 small {
+   display: block;
+   font-size: 15px;
+   margin-top: 10px;
+}
+.profile-card i {
+   display: inline-block;
+   font-size: 16px;
+   color: #232323;
+   border: 1px solid #232323;
+   width: 30px;
+   height: 30px;
+   line-height: 30px;
+   border-radius: 50%;
+   margin: 0 5px;
+}
+.profile-card .icon-block {
+   float: left;
+   width: 100%;
+   margin-top: 15px;
+}
+.profile-card .icon-block a {
+   text-decoration: none;
+}
+.profile-card i:hover {
+   background-color: #232323;
+   color: #fff;
+   text-decoration: none;
+}

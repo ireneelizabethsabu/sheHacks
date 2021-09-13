@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda&family=Monoton&family=Quattrocento&family=Roboto&display=swap');
+@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+
+body{
+    font-family: "Open Sans", Arial, sans-serif;
+    overflow-x: hidden;
+    min-width: 400px;
+}
+.merienta{
+    font-family: 'Merienda', cursive;
+    font-size: 2.5rem;
+}
+.name{
+    background-image: linear-gradient(135deg,#6A82FB,#FC5C7D);
+    height: 500px;
+    font-family: 'Monoton', cursive;
+    font-size: 8rem !important;
+    color: white;
+    position: relative;
+}
+.font_m{
+    font-size: 1.3rem;
+}
+.mission{
+    background-color: white;
+}
+.incog{
+    transform: scale(1.5);
+    rotate: 36deg;
+}
+.custom-shape-divider-bottom-1631531679 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-bottom-1631531679 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 93px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1631531679 .shape-fill {
+    fill: #FFFFFF;
+}
+@media (max-width: 900px) {
+    .name{
+        height: 400px;
+        font-size: 6rem !important;
+    }
+}
+@media (max-width: 650px) {
+    .name{
+        height: 350px;
+        font-size: 4rem !important;
+    }
+}
+@media (max-width: 450px) {
+    .name{
+        height: 300px;
+        font-size: 3rem !important;
+    }
+}
